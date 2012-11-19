@@ -1,9 +1,5 @@
 window.onload = function() {
 
-	/*
-	 * Find the users location
-	 */
-
 	// Check to see if the browser supports the GeoLocation API.
 	if (navigator.geolocation) {
 		// Get the location
@@ -21,7 +17,7 @@ window.onload = function() {
 
 }
 
-// Show the user's position on a google map.
+// Show the user's position on a Google map.
 function showMap(lat, lon) {
 	// Create a LatLng object with the GPS coordinates.
 	var myLatLng = new google.maps.LatLng(lat, lon);
